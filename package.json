@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "tsx server.ts",
     "generate-cv": "tsx scripts/generate-cv.ts",
-    "generate-video": "tsx scripts/generate-promo-video.ts",
-    "build": "tsx scripts/generate-cv.ts && vite build",
+    "build": "vite build",
     "start": "tsx server.ts",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",

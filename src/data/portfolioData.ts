@@ -32,12 +32,10 @@ export const portfolioData: PortfolioConfig = {
     availability: 'Open to Work',
     isAvailableForWork: true,
     // Dedicated portrait path as uploaded by Hikmat Ullah
-    profileImage: '/assets/aistudio/WhatsApp_Image_2026-10-29_at_9.07.07_AM_9f852017.jpeg',
+    profileImage: `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-29_at_9.07.07_AM_9f852017.jpeg',
     // Verified downloadable CV PDF file
-    cvPath: '/Hikmat-Ullah-Web-Developer-CV.pdf', 
+    cvPath: `${import.meta.env.BASE_URL}Hikmat-Ullah-Web-Developer-CV.pdf`, 
     hasCvFile: true,
-    // Rendered 15-second promo video file (9:16 vertical MP4 for LinkedIn, Reels, Shorts)
-    promoVideoPath: '/Hikmat-Ullah-Web-Developer-Promo.mp4',
     // Real Formspree Endpoint or Form ID (e.g. "xbjnzkpq" or "https://formspree.io/f/xbjnzkpq")
     // If empty or unconfigured, the contact form will notify the user rather than faking delivery.
     formspreeEndpoint: '',
@@ -168,9 +166,9 @@ export const portfolioData: PortfolioConfig = {
         'Responsive layout across desktop, tablet, and mobile'
       ],
       category: 'Education',
-      thumbnail: '/assets/aistudio/WhatsApp_Image_2026-11-16_at_4.03.11_AM_3d540ec0.jpeg',
+      thumbnail: `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-11-16_at_4.03.11_AM_3d540ec0.jpeg',
       galleryImages: [
-        '/assets/aistudio/WhatsApp_Image_2026-11-16_at_4.03.11_AM_3d540ec0.jpeg'
+        `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-11-16_at_4.03.11_AM_3d540ec0.jpeg`
       ],
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Responsive UI'],
       githubUrl: 'https://github.com/Hikmatullah100/gem-Acadmey',
@@ -199,9 +197,9 @@ export const portfolioData: PortfolioConfig = {
         'Fully responsive mobile and tablet layout'
       ],
       category: 'Full Stack',
-      thumbnail: '/src/assets/images/project_fintrack_dashboard_1793290112950.jpg',
+      thumbnail: `${import.meta.env.BASE_URL}assets/projects/project_fintrack_dashboard_1793290112950.jpg`,
       galleryImages: [
-        '/src/assets/images/project_fintrack_dashboard_1793290112950.jpg'
+        `${import.meta.env.BASE_URL}assets/projects/project_fintrack_dashboard_1793290112950.jpg`
       ],
       technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Chart.js', 'Express'],
       githubUrl: undefined,
@@ -230,9 +228,9 @@ export const portfolioData: PortfolioConfig = {
         'Robust validation for shipping and billing forms'
       ],
       category: 'E-Commerce',
-      thumbnail: '/src/assets/images/project_shopvista_ecommerce_1793290113023.jpg',
+      thumbnail: `${import.meta.env.BASE_URL}assets/projects/project_shopvista_ecommerce_1793290113023.jpg`,
       galleryImages: [
-        '/src/assets/images/project_shopvista_ecommerce_1793290113023.jpg'
+        `${import.meta.env.BASE_URL}assets/projects/project_shopvista_ecommerce_1793290113023.jpg`
       ],
       technologies: ['React', 'Next.js', 'Node.js', 'Tailwind CSS', 'Stripe API'],
       githubUrl: undefined,

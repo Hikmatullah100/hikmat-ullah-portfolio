@@ -84,7 +84,6 @@ export interface PortfolioConfig {
     profileImage: string;
     cvPath?: string; // Path or empty
     hasCvFile: boolean;
-    promoVideoPath?: string;
     formspreeEndpoint?: string;
   };
   hero: {
